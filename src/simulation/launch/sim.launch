@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+<node pkg="simulation" name="UAV_control" type="sim.py" output="screen"/> 
+
+</launch>

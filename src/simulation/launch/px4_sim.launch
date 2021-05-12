@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+<!-- Calling the launch file for PX4 SITL here -->
+    <include file="/home/$(env USER)/Firmware/launch/mavros_posix_sitl.launch">
+    </include>
+
+</launch>
