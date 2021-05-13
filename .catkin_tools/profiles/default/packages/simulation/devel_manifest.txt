@@ -1,5 +1,0 @@
-simulation
-/home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/.private/simulation/cmake.lock /home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/./cmake.lock
-/home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/.private/simulation/lib/pkgconfig/simulation.pc /home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/lib/pkgconfig/simulation.pc
-/home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/.private/simulation/share/simulation/cmake/simulationConfig.cmake /home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/share/simulation/cmake/simulationConfig.cmake
-/home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/.private/simulation/share/simulation/cmake/simulationConfig-version.cmake /home/owais/Desktop/Books/job/PhD/KTH/RE2/Repo/PX4_simulation/devel/share/simulation/cmake/simulationConfig-version.cmake
