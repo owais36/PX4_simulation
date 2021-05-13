@@ -47,7 +47,7 @@ class UAV:
 
         #Takeoff for the UAV
         self.takeoff(5)
-        time.sleep(8)
+        time.sleep(3)
 
         #Flying a circular trajectory
         self.uav_circle()
@@ -116,7 +116,7 @@ class UAV:
             set_point.position.x = p[0]
             set_point.position.y = p[1]
             set_point.position.z = p[2]
-            while(dist_error > 0.1):
+            while(dist_error > 0.2):
                 self.uav_pos_pub.publish(set_point)
                 rate.sleep()
                 dist_error = self.get_distance_error(p)
