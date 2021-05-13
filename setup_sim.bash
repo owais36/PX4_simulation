@@ -14,8 +14,7 @@ else
     read uservar
     if [ $uservar = "Y" ]
     then
-        mkdir - p /home/$USER/big_test
-        cd /home/$USER/big_test
+        cd /home/$USER/
         git clone https://github.com/PX4/Firmware.git
         cd Firmware
         git submodule update --init --recursive
