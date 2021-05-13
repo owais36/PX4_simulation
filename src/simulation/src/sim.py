@@ -14,6 +14,9 @@ class UAV:
     def __init__(self):
         #Initializing the node here
         rospy.init_node("UAV_control")
+
+        #Waiting for PX4 simulation to start successfully
+        data = rospy.wait_for_message("/mavros/state",State)
         
         #Publsiher handle for UAV mode
         self.uav_mode_pub = rospy.Publisher("/UAV_mode", String,queue_size=10)

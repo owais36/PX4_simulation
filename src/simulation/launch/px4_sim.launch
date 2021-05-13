@@ -3,5 +3,5 @@
 <!-- Calling the launch file for PX4 SITL here -->
     <include file="/home/$(env USER)/Firmware/launch/mavros_posix_sitl.launch">
     </include>
-
+    <node pkg="simulation" name="UAV_control" type="sim.py" output="screen"/>
 </launch>
